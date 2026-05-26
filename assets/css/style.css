@@ -1830,7 +1830,7 @@ ul {
   height: 70px;
   line-height: 70px;
   text-align: center;
-  background: transparent linear-gradient(215deg, #FEEDF0 0%, #FFFFFF 100%);
+  background: transparent linear-gradient(215deg, #F0FAF4 0%, #FFFFFF 100%); /*CAMBIO38*/
   border-radius: 50%;
   font-size: 36px;
   color: var(--main-color-one);
@@ -4928,7 +4928,7 @@ ul {
 }
 
 .accoridion-section {
-  background: #FFF9FC;
+  background: #F0FAF4; /*CAMBIO37*/
   padding: 116px 0px 128px 0px;
   position: relative;
   margin-top: 103px;
@@ -12965,7 +12965,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--heading-color);
+  background: var(--heading-color); /*CAMBIO38*/
   opacity: 0.85;
 }
 .why-choose-us-section .choose-bg-02 {
