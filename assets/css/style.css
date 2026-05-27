@@ -1296,7 +1296,7 @@ ul {
 }
 .btn-wrapper .boxed-btn.political-btn {
   background-color: #fff;
-  color: var(--main-color-one);
+  color: #f5cb00; /*CAMBIO43*/
   padding: 14px 30px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -1318,7 +1318,7 @@ ul {
   text-transform: uppercase;
 }
 .btn-wrapper .boxed-btn.political-btn:hover {
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO44*/
   color: #fff;
 }
 .btn-wrapper .boxed-btn.event-btn {
@@ -1894,7 +1894,7 @@ ul {
   font-size: 30px;
   border-radius: 5px;
   -webkit-box-shadow: 0 12px 20px rgba(221, 19, 26, 0.24);
-          box-shadow: 0 12px 20px rgba(221, 19, 26, 0.24);
+          box-shadow: 0 12px 20px rgba(3,180,46,0.24);
   -webkit-transition: 0.7s all ease;
   transition: 0.7s all ease;
 }
@@ -3001,7 +3001,7 @@ ul {
   font-size: 14px;
   line-height: 2;
   font-weight: 400;
-  color: #000792;
+  color: #0f6735; /*CAMBIO49*/
   margin-bottom: 0;
   text-transform: uppercase;
 }
@@ -3017,7 +3017,7 @@ ul {
   width: 100%;
   height: 50%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 7, 46, 0)), to(rgb(4, 7, 46)));
-  background: linear-gradient(180deg, rgba(4, 7, 46, 0) 0%, rgb(4, 7, 46) 100%);
+  background: linear-gradient(180deg, rgba(4, 7, 46, 0) 0%, rgba(3, 180, 46) 200%); /*CAMBIO48*/
 }
 .team-single-items .thumbnail .social-area {
   list-style: none;
@@ -3655,7 +3655,7 @@ ul {
   font-family: var(--heading-font);
   font-weight: 600;
   margin-bottom: 100px;
-  color: #fff;
+  color: #f5cb00; /*CAMBIO53*/
 }
 
 .vision-single-item-wrapper {
@@ -5134,7 +5134,7 @@ ul {
   height: 70px;
   line-height: 70px;
   text-align: center;
-  background: transparent linear-gradient(215deg, #FEEDF0 0%, #FFFFFF 100%);
+  background: transparent linear-gradient(215deg, #03B42E1A 0%, #FFFFFF 100%); /*CAMBIO50*/
   border-radius: 50%;
   font-size: 36px;
   color: var(--main-color-one);
@@ -7309,7 +7309,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
           align-items: center;
   background-color: #FFF9FC;
   -webkit-box-shadow: 0px 15px 30px rgba(221, 19, 26, 0.14);
-          box-shadow: 0px 15px 30px rgba(221, 19, 26, 0.14);
+          box-shadow: 0px 15px 30px rgba(25, 135, 84, 0.14); /*CAMBIO51*/
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -9591,7 +9591,7 @@ input[type=checkbox] {
   display: inline-block;
   height: 2px;
   width: 4px;
-  background-color: var(--main-color-one);
+  background-color: #f5cb00; /*CAMBIO42*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li .line .dot.style-02 {
   width: 25px;
@@ -9606,7 +9606,7 @@ input[type=checkbox] {
   color: #fff;
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--main-color-one);
+  color: #f5cb00; /*CAMBIO40*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li.current-menu-item:before {
   color: var(--main-color-one);
@@ -9620,7 +9620,7 @@ input[type=checkbox] {
   color: var(--main-color-one);
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: var(--main-color-one);
+  color: #f5cb00; /*CAMBIO41*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover .line {
   -webkit-transform: scaleX(1);
@@ -10121,14 +10121,14 @@ input[type=checkbox] {
     padding-bottom: 70px;
   }
 }
-.our-party-section-area.style-02::before {
+.our-party-section-area.style-02::before { /*CAMBIO45*/
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(3,180,46,0.60);
 }
 .our-party-section-area.party-vision {
   background: #F9F9FF;
@@ -12593,7 +12593,7 @@ input[type=checkbox] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 0px 135px 0px;
+  padding: 200px 0px 200px 0px; /*CAMBIO46*/
   position: relative;
 }
 .about-us-section-area.about-bg::before {
@@ -12603,7 +12603,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(3, 180, 46, 0.45); /*CAMBIO25*/
+  background: rgba(3, 180, 46, 0.60); /*CAMBIO25*/
 }
 .about-us-section-area .about-inner .title {
   font-size: 65px;
@@ -12965,8 +12965,8 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--heading-color); /*CAMBIO38*/
-  opacity: 0.85;
+  background: rgba(3,180,46,1); 
+  opacity: 0.70; 
 }
 .why-choose-us-section .choose-bg-02 {
   background-repeat: no-repeat;
@@ -14549,7 +14549,7 @@ input[type=checkbox] {
           filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 0.12));
 }
 .icon-box-item-02:hover .icon {
-  background: #f5cb00; /*CAMBIO18*/
+  background: #198754; /*CAMBIO18*/
   color: #fff;
 }
 .icon-box-item-02 .icon {
@@ -14557,10 +14557,10 @@ input[type=checkbox] {
   height: 60px;
   line-height: 56px;
   text-align: center;
-  background: rgba(0, 7, 146, 0.05);
+  background: rgba(25, 135, 84, 0.05); /*CAMBIO52*/ 
   border-radius: 50%;
   font-size: 30px;
-  color: #f5cb00; /*CAMBIO19*/
+  color: #198754; /*CAMBIO19*/
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
