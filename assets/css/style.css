@@ -8862,7 +8862,7 @@ input[type=checkbox] {
 .header-area .dot {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO60*/
   position: absolute;
   top: 2%;
   left: 7%;
@@ -8872,7 +8872,7 @@ input[type=checkbox] {
 .header-area .dot-02 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO61*/
   position: absolute;
   top: 50%;
   left: 7%;
@@ -8882,8 +8882,8 @@ input[type=checkbox] {
 .header-area .dot-03 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
-  position: absolute;
+  background: #f5cb00; /*CAMBIO60*/
+  position: absolute; 
   top: 2%;
   right: 7%;
   -webkit-animation: updown-two 1.5s both linear alternate infinite;
@@ -8892,7 +8892,7 @@ input[type=checkbox] {
 .header-area .dot-04 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO56*/
   position: absolute;
   top: 18%;
   right: 21%;
@@ -8904,7 +8904,7 @@ input[type=checkbox] {
 .header-area .dot-05 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO57*/
   position: absolute;
   top: 50%;
   right: 21%;
@@ -8914,7 +8914,7 @@ input[type=checkbox] {
 .header-area .dot-06 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO58*/
   position: absolute;
   top: 80%;
   right: 7%;
@@ -8924,7 +8924,7 @@ input[type=checkbox] {
 .header-area .dot-07 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO59*/
   position: absolute;
   top: 80%;
   left: 24%;
@@ -8934,7 +8934,7 @@ input[type=checkbox] {
 .header-area .dot-08 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO54*/
   position: absolute;
   top: 20%;
   left: 24%;
@@ -8946,7 +8946,7 @@ input[type=checkbox] {
 .header-area .dot-09 {
   width: 3px;
   height: 33px;
-  background: var(--main-color-one);
+  background: #f5cb00; /*CAMBIO55*/
   position: absolute;
   top: 10%;
   left: 40%;
@@ -12603,7 +12603,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(3, 180, 46, 0.60); /*CAMBIO25*/
+  background: rgba(25, 135, 84, 0.7); /*CAMBIO25*/
 }
 .about-us-section-area .about-inner .title {
   font-size: 65px;
