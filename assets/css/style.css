@@ -1590,7 +1590,7 @@ ul {
   line-height: 21px;
   font-family: var(--heading-font);
   font-weight: 700;
-  color: #373737;
+  color: #1a2a22; /*CAMBIO65*/
 }
 .video-play.style-04::after {
   content: none;
@@ -2207,7 +2207,7 @@ ul {
   line-height: 28px;
   font-family: var(--body-font);
   font-weight: 500;
-  color: #4F4F6B;
+  color: #000000; /*CAMBIO68*/
   text-align: center;
 }
 .section-title .description.style-01 {
@@ -8390,7 +8390,7 @@ input[type=checkbox] {
 .header-area.header-sanatory .header-inner .title.style-01 {
   max-width: inherit;
   text-align: center;
-  color: #04072E;
+  color: #1a2a22; /*CAMBIO64*/
 }
 .header-area.header-sanatory .header-inner .title.style-02 {
   margin: 0 auto;
@@ -8430,7 +8430,7 @@ input[type=checkbox] {
   text-align: center;
   line-height: 30px;
   font-weight: 500;
-  color: #202020;
+  color: #1a2a22; /*CAMBIO64*/
   margin-bottom: 55px;
 }
 .header-area.header-sanatory .header-inner.political .title {
@@ -8678,7 +8678,7 @@ input[type=checkbox] {
 .header-area .subtitle.style-01 {
   padding-left: 0px;
   text-align: center;
-  color: var(--main-color-one);
+  color: #0f5c38; /*CAMBIO66*/
 }
 .header-area .subtitle .line {
   content: "";
@@ -8862,7 +8862,7 @@ input[type=checkbox] {
 .header-area .dot {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO60*/
+  background: #0f5c38; /*CAMBIO60*/
   position: absolute;
   top: 2%;
   left: 7%;
@@ -8872,7 +8872,7 @@ input[type=checkbox] {
 .header-area .dot-02 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO61*/
+  background: #0f5c38; /*CAMBIO61*/
   position: absolute;
   top: 50%;
   left: 7%;
@@ -8882,7 +8882,7 @@ input[type=checkbox] {
 .header-area .dot-03 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO60*/
+  background: #0f5c38; /*CAMBIO60*/
   position: absolute; 
   top: 2%;
   right: 7%;
@@ -8892,7 +8892,7 @@ input[type=checkbox] {
 .header-area .dot-04 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO56*/
+  background: #0f5c38; /*CAMBIO56*/
   position: absolute;
   top: 18%;
   right: 21%;
@@ -8904,7 +8904,7 @@ input[type=checkbox] {
 .header-area .dot-05 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO57*/
+  background: #0f5c38; /*CAMBIO57*/
   position: absolute;
   top: 50%;
   right: 21%;
@@ -8914,7 +8914,7 @@ input[type=checkbox] {
 .header-area .dot-06 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO58*/
+  background: #0f5c38; /*CAMBIO58*/
   position: absolute;
   top: 80%;
   right: 7%;
@@ -8924,7 +8924,7 @@ input[type=checkbox] {
 .header-area .dot-07 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO59*/
+  background: #0f5c38; /*CAMBIO59*/
   position: absolute;
   top: 80%;
   left: 24%;
@@ -8934,7 +8934,7 @@ input[type=checkbox] {
 .header-area .dot-08 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO54*/
+  background: #0f5c38; /*CAMBIO54*/
   position: absolute;
   top: 20%;
   left: 24%;
@@ -8946,7 +8946,7 @@ input[type=checkbox] {
 .header-area .dot-09 {
   width: 3px;
   height: 33px;
-  background: #f5cb00; /*CAMBIO55*/
+  background: #0f5c38; /*CAMBIO55*/
   position: absolute;
   top: 10%;
   left: 40%;
@@ -9591,7 +9591,7 @@ input[type=checkbox] {
   display: inline-block;
   height: 2px;
   width: 4px;
-  background-color: #f5cb00; /*CAMBIO42*/
+  background-color: #0f5c38; /*CAMBIO42*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li .line .dot.style-02 {
   width: 25px;
@@ -9606,7 +9606,7 @@ input[type=checkbox] {
   color: #fff;
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: #f5cb00; /*CAMBIO40*/
+  color: #0f5c38; /*CAMBIO40*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li.current-menu-item:before {
   color: var(--main-color-one);
@@ -9614,13 +9614,13 @@ input[type=checkbox] {
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  color: var(--heading-color);
+  color: #1a2a22; /*CAMBIO62*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
   color: var(--main-color-one);
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: #f5cb00; /*CAMBIO41*/
+  color: #0f5c38; /*CAMBIO41*/
 }
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li:hover .line {
   -webkit-transform: scaleX(1);
@@ -11056,7 +11056,7 @@ input[type=checkbox] {
     Footer Area
 -------------------------*/
 .footer-area {
-  background-color: var(--heading-color);
+  background-color: #1a2a22; /*CAMBIO67*/
 }
 .footer-area.line-bg {
   background-size: cover;
@@ -11629,7 +11629,7 @@ input[type=checkbox] {
 }
 
 .widget.footer-widget {
-  background-color: RGB(25, 135, 84, 0.35); /*CAMBIO 51*/
+  background-color: transparent !important; /*CAMBIO 51*/
   padding: 0;
   margin-bottom: 30px;
 }
@@ -12603,7 +12603,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(25, 135, 84, 0.7); /*CAMBIO25*/
+  background: rgba(15, 92, 56, 0.3); /*CAMBIO25*/
 }
 .about-us-section-area .about-inner .title {
   font-size: 65px;
@@ -12611,7 +12611,7 @@ input[type=checkbox] {
   font-family: var(--heading-font);
   font-weight: 700;
   -webkit-text-stroke: 1px #f5cb00; /*CAMBIO26*/
-  text-shadow: 0 0 30px rgba(0,0,0,0.8), 0 0 60px rgba(0,0,0,0.8); /*CAMBIO27*/
+  text-shadow: 0 0 30px rgba(0,0,0,0.2), 0 0 60px rgba(0,0,0,0.2); /*CAMBIO27*/
   color: rgba(4, 7, 46, 0);
   text-align: center;
   margin-bottom: 20px;

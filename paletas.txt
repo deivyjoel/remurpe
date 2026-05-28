@@ -1,0 +1,30 @@
+Paleta actual:
+
+Colores base: 
+Verde oscuro
+#0f5c38
+Verde principal
+#198754
+Verde claro
+#25a865
+Dorado principal
+#f5cb00
+Dorado oscuro
+#c9a200
+
+Colores para texto:
+Blanco puro
+#ffffff
+Blanco verdoso
+#f0f4f2
+Negro verdoso
+#1a2a22
+Negro (solo fondos blancos)
+#000000
+
+Reglas de uso sobre imágenes con shadow verde
+
+Texto principal sobre imagen: siempre blanco #ffffff. El shadow verde ya crea contraste suficiente.
+Texto de acento / nombre del candidato: dorado #f5cb00 sobre shadow verde oscuro. Muy buena legibilidad.
+Texto sobre fondo blanco: usa #1a2a22 en vez de negro puro. Armoniza con el verde y reduce la dureza.
+Nunca uses amarillo claro #f5cb00 sobre verde claro o sobre foto sin shadow. El contraste es insuficiente.
