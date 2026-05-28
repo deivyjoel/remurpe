@@ -1798,9 +1798,9 @@ ul {
   z-index: 0;
   overflow: hidden;
 }
-.single-testimonial-item-02:hover {
-  -webkit-box-shadow: 0px 10px 30px rgba(221, 19, 26, 0.15);
-          box-shadow: 0px 10px 30px rgba(221, 19, 26, 0.15);
+.single-testimonial-item-02:hover { /*CAMBIO71*/
+  -webkit-box-shadow: 0px 10px 30px rgba(3, 180, 46, 0.25);
+          box-shadow: 0px 10px 30px rgba(3, 180, 46, 0.25);
 }
 .single-testimonial-item-02:hover .shape-01 {
   opacity: 1;
@@ -1811,7 +1811,7 @@ ul {
   line-height: 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #04072E;
+  color: #1a2a22; /*CAMBIO69*/
   margin-bottom: 25px;
 }
 .single-testimonial-item-02 .shape-01 {
@@ -2196,7 +2196,7 @@ ul {
 }
 .section-title .title.style-01 {
   text-align: left;
-  color: #fff;
+  color: #ffffff; /*CAMBIO78*/
   margin-bottom: 13px;
 }
 .section-title .title.style-02 {
@@ -2213,7 +2213,7 @@ ul {
 .section-title .description.style-01 {
   font-size: 16px;
   line-height: 21px;
-  color: #fff;
+  color: #ffffff; /*CAMBIO77*/
   font-weight: 400;
   text-align: left;
 }
@@ -4943,7 +4943,7 @@ ul {
 .accoridion-section .section-title .title {
   font-size: 40px;
   font-weight: 700;
-  color: #000629;
+  color: #1a2a22; /*CAMBIO68*/
   line-height: 55px;
 }
 .accoridion-section .shape {
@@ -7075,8 +7075,8 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   margin-bottom: 0px;
 }
 
-.services-single-section {
-  background: #FFF9FC;
+.services-single-section { 
+  background: #F0FAF4; /*CAMBIO70*/
   padding: 106px 0px 90px 0px;
   position: relative;
   z-index: 0;
@@ -8678,7 +8678,7 @@ input[type=checkbox] {
 .header-area .subtitle.style-01 {
   padding-left: 0px;
   text-align: center;
-  color: #0f5c38; /*CAMBIO66*/
+  color: #1a2a22; /*CAMBIO66*/
 }
 .header-area .subtitle .line {
   content: "";
@@ -8757,7 +8757,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(182deg, rgba(255, 255, 255, 0) 23%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(182deg, rgba(15, 92, 56, 0.15) 23%, rgba(255, 255, 255) 100%); /*CAMBIO76*/
 }
 .header-area.header-bg-04 {
   background-position: center;
@@ -8862,7 +8862,7 @@ input[type=checkbox] {
 .header-area .dot {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO60*/
+  background: #c9a200; /*CAMBIO60*/
   position: absolute;
   top: 2%;
   left: 7%;
@@ -8872,7 +8872,7 @@ input[type=checkbox] {
 .header-area .dot-02 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO61*/
+  background: #c9a200; /*CAMBIO61*/
   position: absolute;
   top: 50%;
   left: 7%;
@@ -8882,7 +8882,7 @@ input[type=checkbox] {
 .header-area .dot-03 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO60*/
+  background: #c9a200; /*CAMBIO60*/
   position: absolute; 
   top: 2%;
   right: 7%;
@@ -8892,7 +8892,7 @@ input[type=checkbox] {
 .header-area .dot-04 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO56*/
+  background: #c9a200; /*CAMBIO56*/
   position: absolute;
   top: 18%;
   right: 21%;
@@ -8904,7 +8904,7 @@ input[type=checkbox] {
 .header-area .dot-05 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO57*/
+  background: #c9a200; /*CAMBIO57*/
   position: absolute;
   top: 50%;
   right: 21%;
@@ -8914,7 +8914,7 @@ input[type=checkbox] {
 .header-area .dot-06 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO58*/
+  background: #c9a200; /*CAMBIO58*/
   position: absolute;
   top: 80%;
   right: 7%;
@@ -8924,7 +8924,7 @@ input[type=checkbox] {
 .header-area .dot-07 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO59*/
+  background: #c9a200; /*CAMBIO59*/
   position: absolute;
   top: 80%;
   left: 24%;
@@ -8934,7 +8934,7 @@ input[type=checkbox] {
 .header-area .dot-08 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO54*/
+  background: #c9a200; /*CAMBIO54*/
   position: absolute;
   top: 20%;
   left: 24%;
@@ -8946,7 +8946,7 @@ input[type=checkbox] {
 .header-area .dot-09 {
   width: 3px;
   height: 33px;
-  background: #0f5c38; /*CAMBIO55*/
+  background: #c9a200; /*CAMBIO55*/
   position: absolute;
   top: 10%;
   left: 40%;
@@ -12603,7 +12603,8 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(15, 92, 56, 0.3); /*CAMBIO25*/
+  background: linear-gradient(182deg, rgba(15, 92, 56, 0.15) 23%, rgba(255, 255, 255) 100%); /*CAMBIO25*/
+  /*Antes solo era rgba*/
 }
 .about-us-section-area .about-inner .title {
   font-size: 65px;
@@ -12958,14 +12959,14 @@ input[type=checkbox] {
   padding: 90px 0px 100px 0px;
   position: relative;
 }
-.why-choose-us-section.choose-bg::before {
+.why-choose-us-section.choose-bg::before { /*CAMBIO72*/
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(3,180,46,1); 
+  background: rgba(15, 92, 56, 0.3); 
   opacity: 0.70; 
 }
 .why-choose-us-section .choose-bg-02 {
