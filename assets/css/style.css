@@ -11629,7 +11629,7 @@ input[type=checkbox] {
 }
 
 .widget.footer-widget {
-  background-color: transparent !important;
+  background-color: RGB(25, 135, 84, 0.35); /*CAMBIO 51*/
   padding: 0;
   margin-bottom: 30px;
 }
