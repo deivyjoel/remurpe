@@ -2067,7 +2067,7 @@ ul {
   line-height: 28px;
   font-family: var(--body-font);
   font-weight: 400;
-  color: var(--heading-color);
+  color: #1a2a22; /*CAMBIO75*/
   margin-bottom: 25px;
   max-width: 510px;
 }
@@ -3736,7 +3736,7 @@ ul {
   line-height: 28px;
   font-family: var(--body-font);
   font-weight: 400;
-  color: var(--heading-color);
+  color: #1a2a22; /*CAMBIO80*/
   margin-bottom: 0;
   -webkit-transition: 0.7s all ease;
   transition: 0.7s all ease;
