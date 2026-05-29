@@ -3655,7 +3655,7 @@ ul {
   font-family: var(--heading-font);
   font-weight: 600;
   margin-bottom: 100px;
-  color: #f5cb00; /*CAMBIO53*/
+  color: #fff; /*CAMBIO53*/
 }
 
 .vision-single-item-wrapper {
