@@ -18,8 +18,8 @@ Blanco puro
 Blanco verdoso
 #f0f4f2
 Negro verdoso
-#1a2a22
-Negro (solo fondos blancos)
+#1a2a22 
+Negro (solo fon dos blancos)
 #000000
 
 Reglas de uso sobre imágenes con shadow verde
