@@ -8757,7 +8757,7 @@ input[type=checkbox] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(182deg, rgba(255, 255, 255, 0.15) 23%, rgba(255, 255, 255) 100%); /*CAMBIO76*/
+  background: linear-gradient(182deg, rgba(255, 255, 255, 0) 23%, rgba(255, 255, 255) 100%); /*CAMBIO76*/
 }
 .header-area.header-bg-04 {
   background-position: center;
@@ -9559,12 +9559,23 @@ input[type=checkbox] {
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav {
   text-align: right;
 }
+
+/* Nuevo css */
+.navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three li {
+  width: 140px; 
+  text-align: center;
+}
+/* */
+
+
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three {
   display: flex; /*CAMBIO100*/
   align-items: center;
   justify-content: center;
   text-align: left;
+  transform: translateX(70px);
 }
+
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three li.menu-item-has-children::before {
   color: var(--heading-color);
 }
