@@ -87,6 +87,7 @@ p {
   color: var(--paragraph-color);
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+  text-align: justify; /*CAMBIO200*/
   hyphens: none;
   margin-bottom: 10px;
   line-height: 24px;
@@ -5012,6 +5013,8 @@ ul {
 .accordion-wrapper-02 .card .card-body {
   background: var(--main-color-one);
   padding: 0px 20px 25px 25px;
+  hyphens: none;
+  text-align: justify; /*CAMBIO400*/
   border-top: 0px;
   border-radius: 0px 0px 4px 4px;
   font-size: 16px;
@@ -7004,7 +7007,9 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 }
 .contact-info-list-02 .single-info-item .details {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 24px; /*CAMBIO300*/
+  text-align: justify; 
+  hyphens: none;
   font-family: var(--body-font);
   font-weight: 500;
   color: #505050;
@@ -9560,20 +9565,13 @@ input[type=checkbox] {
   text-align: right;
 }
 
-/* Nuevo css */
-.navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three li {
-  width: 140px; 
-  text-align: center;
-}
-/* */
-
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three {
   display: flex; /*CAMBIO100*/
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   text-align: left;
-  transform: translateX(70px);
+  position: relative;
 }
 
 .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav.home-three li.menu-item-has-children::before {
